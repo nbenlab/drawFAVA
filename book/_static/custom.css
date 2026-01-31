@@ -17,3 +17,8 @@
    padding: 2px;
    font-size: 18px;
 }
+
+.caption-number {
+    font-weight: bold;
+    font-style: normal !important;
+}
