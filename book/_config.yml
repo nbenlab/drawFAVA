@@ -40,10 +40,13 @@ html:
 
 sphinx:
   config:
+    bibtex_reference_style: author_year
     numfig: true
     numfig_format:
       figure: "Figure %s."
       table: "Table %s."
+bibtex_bibfiles:
+  - references.bib
 
 # Here, we define substitutions for all the glossary terms. These appear all
 # the time in the text so it's worth simplifying their formatting.

@@ -29,5 +29,6 @@ parts:
       - file: 4_annotations/3_dorsal-visual-cortex
   - caption: Appendices
     chapters:
-      - file: 5_appendices/1_legal
-      - file: 5_appendices/2_cortex-annotate
+      - file: 5_appendices/1_cortex-annotate
+      - file: 5_appendices/2_references
+      - file: 5_appendices/3_legal
