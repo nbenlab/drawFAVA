@@ -3,7 +3,7 @@
 
 ## Copyright
 
-Copyright (c) 2025&ndash;2026 Noah C. Benson
+Copyright (c) 2026 Noah C. Benson
 
 
 ## License
