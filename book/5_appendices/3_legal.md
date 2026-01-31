@@ -24,3 +24,9 @@ reserved.
 Unless otherwise stated, the software and documentation provided in the
 [drawFAVA repository](https://github.com/nbenlab/drawFAVA) are made available
 under the [MIT license](https://opensource.org/licenses/mit-license.html).
+
+
+## Use of Generative AI
+
+This site and its assets were made without the use or assistance of generative
+AI.
