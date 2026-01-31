@@ -18,9 +18,9 @@ summary of the license, see
 Unless otherwise stated, images on this website are under copyright of the
 original creator.
 
+The FAVA logo is under copyright (c) 2026 of Noah C. Benson, all rights
+reserved.
+
 Unless otherwise stated, the software and documentation provided in the
 [drawFAVA repository](https://github.com/nbenlab/drawFAVA) are made available
 under the [MIT license](https://opensource.org/licenses/mit-license.html).
-
-
-

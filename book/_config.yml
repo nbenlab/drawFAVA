@@ -3,12 +3,12 @@
 # Configuration the drawFAVA website.
 
 # The title of the campaign.
-title: "Drawing Functional Annotations of Visual Areas"
+title: "Drawing the Functional Atlas of Visual Areas"
 # The author.
 author: "Noah C. Benson"
 copyright: "2026"
 # A logo image, if any.
-#logo:
+logo: "_static/images/fava-logo.png"
 
 execute:
   # Force re-execution of notebooks on each build.
