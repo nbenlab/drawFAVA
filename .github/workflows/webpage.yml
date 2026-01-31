@@ -15,6 +15,7 @@ on:
       - 'main'
     paths:
       - 'book/**'
+      - '.github/workflows/webpage.yml'
   workflow_dispatch:
 
 jobs:
