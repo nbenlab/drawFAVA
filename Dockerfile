@@ -15,6 +15,10 @@ RUN apt-get update --yes \
 COPY /build-book.sh /usr/local/bin/build-book
 RUN chmod 755 /usr/local/bin/build-book
 
+# Also the requirements.txt file.
+COPY /requirements.txt "${HOME}/requirements.txt"
+RUN chmod 755 "${HOME}/requirements.txt"
+
 USER ${NB_USER}
 
 # The repository should get volume-mounted into /home/jovyan/repo (via the
@@ -25,6 +29,9 @@ RUN ln -s "/home/${NB_USER}/repo/site" "/home/${NB_USER}/site"
 # We need to install jupyter-book.
 RUN mamba install --yes 'jupyter-book>=1.0.4,<2' 'jupyterlab-spellchecker' \
  && mamba clean --all -f -y
+# Also whatever is in the requirements.txt file.
+RUN pip install -r "${HOME}/requirements.txt" \
+ && rm "${HOME}/requirements.txt"
 
 # If we have src code and a pyproject.toml that we want to install for the
 # jupyter-book pages, we can put that here.
