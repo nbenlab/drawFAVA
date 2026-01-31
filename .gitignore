@@ -152,7 +152,13 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+#/site
+# The above line is commented out for jupyter-book; we don't want to commit
+# the site or build info, but we want to preserve this directory in the repo
+# so that it's automatically there when we do build and we dn't have to create
+# it.
+/site/_build
+
 
 # mypy
 .mypy_cache/
