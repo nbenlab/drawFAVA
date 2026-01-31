@@ -1,0 +1,19 @@
+.profile-image-left {
+   width: 200px;
+   vertical-align: top;
+   text-align: left;
+}
+.profile-image-right {
+   width: 200px;
+   vertical-align: top;
+   text-align: right;
+}
+.bio {
+   padding: 12px 0;
+   text-align: justify;
+}
+.bio-text {
+   margin: 2px;
+   padding: 2px;
+   font-size: 18px;
+}

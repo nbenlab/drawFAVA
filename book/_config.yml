@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+###############################################################################
+# Configuration the drawFAVA website.
+
+# The title of the campaign.
+title: "Drawing Functional Annotations of Visual Areas"
+# The author.
+author: "Noah C. Benson"
+copyright: "2026"
+# A logo image, if any.
+#logo:
+
+execute:
+  # Force re-execution of notebooks on each build.
+  # See https://jupyterbook.org/content/execute.html
+  execute_notebooks: force
+# Ignore README.md files (they don't go in the books).
+exclude_patterns:
+  - 'README.md'
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+#bibtex_bibfiles:
+#  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: "https://github.com/nbenlab/drawFAVA"
+  path_to_book: book
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  extra_css: ["_static/custom.css"]
+
+sphinx:
+  config:
+    numfig: true
+    numfig_format:
+      figure: "Figure %s."
+      table: "Table %s."
+
+# Here, we define substitutions for all the glossary terms. These appear all
+# the time in the text so it's worth simplifying their formatting.
+parse:
+  myst_enable_extensions:
+    - substitution
+    - colon_fence
+  myst_substitutions:
+    # Put substitutions here; for example, the following line:
+    #  attncheck: "[Attention Check](mechanics:attention-check)"
+    # means that anywhere in the book documents that we encounter the string
+    # {{attncheck}}, it gets replaced with
+    # [Attention Check](mechanics:attention-check).
+    book:
+      title: "Drawing Functional Annotations of Visual Areas"
+      author: "Noah C. Benson"
+    repourl: "https://github.com/nbenlab/drawFAVA/"
+    repolink: "[repository](https://github.com/nbenlab/drawFAVA/)"
+

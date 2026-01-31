@@ -1,0 +1,18 @@
+services:
+   jupyter:
+      build: .
+      image: drawfava:latest
+      ports:
+         - "127.0.0.1:${DRAWFAVA_PORT:-8000}:${DRAWFAVA_PORT:-8000}"
+      environment:
+        JUPYTER_TOKEN: ""
+        JUPYTER_PORT: "${DRAWFAVA_PORT:-8000}"
+      volumes:
+         - ${PWD}:/home/jovyan/repo
+      command: start-notebook.py --NotebookApp.token='' --NotebookApp.password=''
+   build-book:
+      build: .
+      image: drawfava:latest
+      volumes:
+         - ${PWD}:/home/jovyan/repo
+      command: build-book

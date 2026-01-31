@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+###############################################################################
+# Table of contents file for the drawFAVA website.
+# Learn more about Jupyter Book TOCs at:
+#  https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: home
+parts:
+  - caption: About DrawFAVA
+    chapters:
+      - file: 1_intro/1_overview
+      - file: 1_intro/2_team
+      - file: 1_intro/3_acknowledgements
+  - caption: Background Reading
+    chapters:
+      - file: 2_background/1_human-vision
+      - file: 2_background/2_mri
+      - file: 2_background/3_retinotopy
+      - file: 2_background/4_visual-cortex
+  - caption: How to Use the Annotation Tool
+    chapters:
+      - file: 3_howto/1_setup
+      - file: 3_howto/2_annotation-tool
+  - caption: Drawing the Boundaries
+    chapters:
+      - file: 4_annotations/1_v1-v2-v3
+      - file: 4_annotations/2_ventral-visual-cortex
+      - file: 4_annotations/3_dorsal-visual-cortex
+  - caption: Appendices
+    chapters:
+      - file: 5_appendices/1_legal
+      - file: 5_appendices/2_cortex-annotate

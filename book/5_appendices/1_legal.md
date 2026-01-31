@@ -1,13 +1,5 @@
-# Drawing the Functional Atlas of Visual Areas (drawFAVA)
-
-DrawFAVA is a research project to draw functional visual area boundaries on the
-occipital cortices of hundreds of human subjects obtained from many public MRI
-datasets.
-
-This repository contains the website for the drawing portion of the project,
-which includes information on the functional boundaries of the visual cortex
-that are part of the FAVA dataset, and instructions for drawing them.
-
+(appendix:legal)=
+# Legal Information
 
 ## Copyright
 
@@ -29,4 +21,6 @@ original creator.
 Unless otherwise stated, the software and documentation provided in the
 [drawFAVA repository](https://github.com/nbenlab/drawFAVA) are made available
 under the [MIT license](https://opensource.org/licenses/mit-license.html).
+
+
 
