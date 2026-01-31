@@ -37,7 +37,7 @@ jobs:
       - name: Install libraries in pyproject.toml
         run: |
           if [ -r pyproject.toml ] || [ -r requirements.txt ]
-          then pip install -e .
+          then pip install -e -r requirements.txt
           fi
       # Build the book
       - name: Build Website
