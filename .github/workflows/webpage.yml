@@ -35,7 +35,10 @@ jobs:
           python-version: '3.12'
           #cache: pip # Implicitly uses requirements.txt for cache key
       - name: Install libraries in pyproject.toml
-        run: "[ -r pyproject.toml ] && pip install -e ."
+        run: |
+          if [ -r pyproject.toml ]
+          then pip install -e .
+          fi
       # Build the book
       - name: Build Website
         run: |
