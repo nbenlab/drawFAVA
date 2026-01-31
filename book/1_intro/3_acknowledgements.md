@@ -12,3 +12,6 @@ Department](https://psych.nyu.edu/).
 DrawFAVA is funded by the National Eye Institute grant 2R01EY033628 to Noah
 C. Benson, Ariel Rokem, and Jonathan Winawer.
 
+We wish to thank Professor [Hiromasa Takemura](https://www.nips.ac.jp/scbm/en/)
+of the National Institute for Physiological Sciences (Okazaki, Japan) for
+substantial contributions to the preliminary work that created this project.
