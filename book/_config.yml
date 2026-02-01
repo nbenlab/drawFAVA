@@ -45,6 +45,8 @@ sphinx:
     numfig_format:
       figure: "Figure %s."
       table: "Table %s."
+    mathjax_path: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
 bibtex_bibfiles:
   - references.bib
 
@@ -54,6 +56,8 @@ parse:
   myst_enable_extensions:
     - substitution
     - colon_fence
+    - amsmath
+    - dollarmath
   myst_substitutions:
     # Put substitutions here; for example, the following line:
     #  attncheck: "[Attention Check](mechanics:attention-check)"
