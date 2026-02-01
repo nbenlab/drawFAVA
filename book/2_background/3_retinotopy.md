@@ -17,8 +17,9 @@ across many functional visual areas.
 :height: 400px
 :alt: The left and right spherically inflated hemispheres of an example subject are shown along with an image of the visual field out to 90 degrees of eccentricity. The visual field is mostly filled with one color per quadrant, except the inner-most 9 degrees of eccentricity, which contains different colors for each quadrant. The cortical surfaces are colored according to the part of the visual field to which they would respond, demonstrating that the visual field is mapped onto cortex in many places.
 Spherically inflated cortical surfaces of an example subject, colored according
-to the part of the visual field to which they respond. The innermost 18&deg; of
-the visual field is represented by close to half of the cortical surface
+to the part of the visual field to which they respond. White contours show the
+boundaries between distinct functional areas on cortex. The innermost 18&deg;
+of the visual field is represented by close to half of the cortical surface
 despite occupying only a small part of the visual field. The magnification of
 the fovea on cortex relative to the periphery is called cortical magnification.
 :::
