@@ -85,13 +85,12 @@ Boundaries for the following category-selective regions in the VOTC will also
 be drawn on all subjects with sufficiently high quality data from the
 [fLoc](https://vpnl.stanford.edu/fLoc/) experiment {cite}`Stigliani_etal_2015`.
 
-
 * Faces
   1. OFA
   2. FFA-1
   3. FFA-2
-  4. mTL-faces ("mid temporal lobe faces")
-  5. aTL-faces ("anterior temporal lobe faces")
+  4. mTL-faces
+  5. aTL-faces
 * Bodies 
   1. EBA
   2. FBA-1
@@ -105,5 +104,5 @@ be drawn on all subjects with sufficiently high quality data from the
   1. OWFA
   2. VWFA-1
   3. VWFA-2
-  4. mfs-words ("mid fusiform sulcus words")
-  5. mTL-words ("mid temporal lobe words")
+  4. mFS-words
+  5. mTL-words
