@@ -39,7 +39,7 @@ structure called the lateral geniculate nucleus (LGN). RGCs from the retina are
 routed through a junction near the front of the brain called the optic chiasm
 where they are sorted according to whether they receive input from the left or
 the right half of the visual field. Neurons from both eyes that receive input
-from the right half of the visual field project through the optic chaism to the
+from the right half of the visual field project through the optic chiasm to the
 brain's left hemisphere, and neurons receiving input from the left visual field
 project to the right hemisphere ({numref}`Fig. {number}<fig-tracts>`).
 
@@ -90,7 +90,7 @@ treat it as purely 2D.
 :::{admonition} Are the hemispheres really topologically spheres?
 :class: tip
 Arguably, the cortical surface of a hemisphere of the brain isn't really
-topologically equivalent to a sphere because the corpus collosum makes a hole
+topologically equivalent to a sphere because the corpus callosum makes a hole
 in the sphere along the hemisphere's medial surface. This is perfectly true,
 but we typically treat the medial surface as a very thin surface of gray matter
 in order to make calculations simpler.
