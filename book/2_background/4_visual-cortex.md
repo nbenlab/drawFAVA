@@ -1,6 +1,25 @@
 (background:visual-cortex)=
 # The Human Visual Cortex
 
+:::{admonition} Further Reading
+:class: tip
+This page introduces the visual cortex at a high level but is not intended to
+be a thorough treatment of the subject. For a more detailed treatment,
+we recommend [this online course on the Human
+Brain](https://www.youtube.com/playlist?list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0)
+by Prof. Nancy Kanwisher (Massachusetts Institute of Technology), in particular
+episode [3.8 (Beyond V1: Lots of Visual Areas)](
+https://www.youtube.com/watch?v=yqh9P_nVEMc&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0&index=32).
+Episodes [2.11 (fMRI)](
+https://www.youtube.com/watch?v=4lLPeCNOpgA&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0&index=16),
+[3.4 (LGN & V1)](
+https://www.youtube.com/watch?v=CvxlN2_bTzY&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0&index=28),
+and [3.5 (Retinotopic Maps)](
+https://www.youtube.com/watch?v=MhFJIgeY-ZY&list=PLyGKBDfnk-iAQx4Kw9JeVqspbg77sfAK0&index=29),
+are also excellent lectures about the topics of the previous chapters in this
+section.
+:::
+
 The human visual cortex is tiled by numerous distinct functional visual areas,
 most of which contain some kind of retinotopic map of the visual field. Example
 of segmentations of the visual cortex into distinct functional regions were
