@@ -1,6 +1,13 @@
 (background:retinotopy)=
 # Retinotopic Mapping
 
+:::{admonition} Further Reading
+:class: tip
+This page introduces retinotopic mapping at a high level but is not intended to
+be a thorough treatment of the subject. For a more detailed treatment of
+retinotopic maps, we recommend a review article by {cite:t}`Ribeiro_etal_2025`.
+:::
+
 The visual cortex is tiled with distinct functional regions, and in many of
 these regions is a retinotopic map. Retinotopic maps are maps in which a
 topologically preserved representation of the visual field (or retina) can be
