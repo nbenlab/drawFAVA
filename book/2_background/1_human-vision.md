@@ -46,11 +46,13 @@ project to the right hemisphere ({numref}`Fig. {number}<fig-tracts>`).
 :::{admonition} "subcortical"
 :class: tip
 A "subcortical" brain structure is a structure that is buried beneath the
-cerebral cortex. The cerebral cortex, often just called cortex, is the large
-wrinkled part of the top of the brain that consists of "gray matter" and "white
-matter". Brain structures like the amygdala and the cerebellum are subcortical.
-Cortical brain regions like Broca's area and the motor homunculus are cortical
-regions.
+cerebral cortex. The cerebral cortex, often just called cortex, is a thin layer
+covering the large wrinkled part of the top of the brain and is made of the
+brain's "gray matter", which surrounds the subcortical "white matter". Brain
+structures like the amygdala and the cerebellum are also subcortical.  Cortical
+brain regions include Broca's area and the motor homunculus. The white matter
+and gray matter of a hemisphere together are sometimes called a cerebral
+hemisphere.
 :::
 
 :::{figure} ../_static/images/left-right-visual-field.png
@@ -68,21 +70,21 @@ primary visual cortex (V1), at the very back of the brain.
 :::
 
 These neurons that connect the retina to the visual cortex in the back of the
-brain run along fiber tracts in the brain's "white matter". In
-{numref}`Figure {number}<fig-tracts>`, there is a thin layer of darker tissue
-visible along the edge of the cerebral cortex surrounding slightly lighter
-tissue. The lighter tissue in the middle of the brain is the white matter, and
-it consists primarily of connections between neurons, a bit like the wires that
-connect the processors of a supercomputer. The darker tissue surrounding the
-white matter is called the "gray matter", and it contains most of the cell
-bodies of the neurons in the cortex, much like the processors of a
+brain run along fiber tracts in the brain's "white matter". In {numref}`Figure
+{number}<fig-tracts>`, there is a thin layer of darker tissue visible along the
+edge of the hemispheres surrounding slightly lighter tissue. The lighter tissue
+in the middle of the brain is the white matter, and it consists primarily of
+connections between neurons, a bit like the wires that connect the processors
+of a supercomputer. The darker tissue surrounding the white matter is called
+the "gray matter" and makes up the cerebral cortex. It contains most of the
+cell bodies of the neurons in the cerebrum, much like the processors of a
 supercomputer themselves.
 
 The gray mater consists of several thin layers that are topologically
 equivalent to the (2D) surfaces of spheres. This 2D shape is important because
 it means that we can visualize and describe regions of the brain in terms of
-where they lie on a 2D surface, and, in fact, we often inflate the surface of
-hemisphere of a surface to aid in visualization
+where they lie on a 2D surface instead of in terms of a 3D space, and, in fact,
+we often inflate the surface of hemisphere of a surface to aid in visualization
 ({numref}`Fig. {number}<fig-inflation>`). For the purposes of this project, we
 will ignore all functional differences between layers of the gray matter and
 treat it as purely 2D.
@@ -93,7 +95,7 @@ Arguably, the cortical surface of a hemisphere of the brain isn't really
 topologically equivalent to a sphere because the corpus callosum makes a hole
 in the sphere along the hemisphere's medial surface. This is perfectly true,
 but we typically treat the medial surface as a very thin surface of gray matter
-in order to make calculations simpler.
+in order to make calculations like brain inflation simpler.
 :::
 
 :::{figure} ../_static/images/cortical-inflation.png
