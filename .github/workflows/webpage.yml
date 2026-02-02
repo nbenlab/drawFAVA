@@ -12,7 +12,7 @@ name: Build and Deploy Website
 on:
   push:
     branches:
-      - 'main'
+      - 'website'
     paths:
       - 'book/**'
       - '.github/workflows/webpage.yml'
