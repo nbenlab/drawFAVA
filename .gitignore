@@ -1,4 +1,7 @@
 
+/cache/
+!/cache/README.md
+
 .env
 .idea/
 .vscode/
