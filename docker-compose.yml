@@ -1,0 +1,11 @@
+services:
+   jupyter:
+      image: nben/drawfava:latest
+      ports:
+         - "127.0.0.1:${DRAWFAVA_PORT:-8181}:${DRAWFAVA_PORT:-8181}"
+      environment:
+        JUPYTER_TOKEN: ""
+        JUPYTER_PORT: "${DRAWFAVA:-8181}"
+      volumes:
+         - ${PWD}:/home/jovyan/repo
+      command: start-notebook.py --NotebookApp.token='' --NotebookApp.password=''
