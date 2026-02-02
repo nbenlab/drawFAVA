@@ -21,7 +21,8 @@ parts:
   - caption: How to Use the Annotation Tool
     chapters:
       - file: 3_howto/1_setup
-      - file: 3_howto/2_annotation-tool
+      - file: 3_howto/2_running
+      - file: 3_howto/3_using
   - caption: Drawing the Boundaries
     chapters:
       - file: 4_annotations/1_v1-v2-v3
