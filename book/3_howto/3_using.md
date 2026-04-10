@@ -161,9 +161,8 @@ made in the [`nbenlab/drawFAVA` GitHub repository](
 https://github.com/nbenlab/drawFAVA)&mdash;the repository from which your
 `drawFAVA` repository was forked. To update your repository with these changes,
 you must synchronize your repository with the `nbenlab` repository. This can
-be done in one of two ways: (1) with the `update.sh` script, or (2) manually.
+be done using the `update.sh` script in the repository.
 
-### Using the `update.sh` Script
 To use the `update.sh` script, you must be in your `drawFAVA` directory. You
 should always synchronize your annotations using the `sync.sh` script before
 you update your repository because uncommitted changed can complicate an
