@@ -135,7 +135,7 @@ bash sync.sh
 If you get a `File not found` message when you run `bash sync.sh`, this means
 you need to syncronize your repository manually. You can do this using the
 following commands, which must be run from in the `drawFAVA` directory. (You
-may want to copy-and-paste the first one).
+may want to copy-and-paste the first one.)
 
 ```bash
 curl https://raw.githubusercontent.com/nbenlab/drawFAVA/refs/heads/main/sync.sh -o sync.sh
@@ -189,7 +189,7 @@ rm upd.sh
 ```
 
 These commands (1) download the `update.sh` script manually but names it
-`upd.md` instead of `update.md`, (2) run the script, which updates your
+`upd.sh` instead of `update.sh`, (2) run the script, which updates your
 repository from the `nbenlab/drawFAVA` repository, then (3) remove the
 script. The script must be named something other than `update.sh` initially
 because the update itself will create the `update.sh` script, and if there
