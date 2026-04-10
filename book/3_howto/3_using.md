@@ -94,7 +94,7 @@ When you are finished editing an annotation, you can click the "Save" button in
 the 2D control panel.
 
 
-## Uploading Annotations
+## Synchronizing Your Annotations to GitHub
 
 Once you have made one or more annotations, you can upload these annotations to
 GitHub. Until you do this, the annotations can be lost by, for example,
@@ -124,10 +124,80 @@ command, which will print your working directory. This should end with
 Once you are in a terminal that is in the `drawFAVA` directory that you've been
 using to run the tool (i.e., this is the directory from which you run
 `docker compose up`), then you are ready to upload your edits. To perform the
-uploads, run the following commands:
+uploads, run the following command:
 
 ```bash
+bash sync.sh
 ```
 
+:::{admonition} `sync.sh`: File not found
+:class: warning
+If you get a `File not found` message when you run `bash sync.sh`, this means
+you need to syncronize your repository manually. You can do this using the
+following commands, which must be run from in the `drawFAVA` directory. (You
+may want to copy-and-paste the first one).
+
+```bash
+curl https://raw.githubusercontent.com/nbenlab/drawFAVA/refs/heads/main/sync.sh -o sync.sh
+bash sync.sh
+rm sync.sh
+```
+
+These commands (1) download the `sync.sh` script manually, (2) run the script
+to syncronize your annotations, and (3) remove the script. You have to remove
+the script because otherwise it can cause problems when you update your
+repository.
+:::
+
+You should ideally run this synchronization command after every session you
+spend editing contours. There is no downside to synchronizing frequently, and
+once annotations are synchronized, they cannot be lost.
 
 
+## Updating Your Repository
+
+On occasion, there are updates to the software that we use. These updates are
+made in the [`nbenlab/drawFAVA` GitHub repository](
+https://github.com/nbenlab/drawFAVA)&mdash;the repository from which your
+`drawFAVA` repository was forked. To update your repository with these changes,
+you must synchronize your repository with the `nbenlab` repository. This can
+be done in one of two ways: (1) with the `update.sh` script, or (2) manually.
+
+### Using the `update.sh` Script
+To use the `update.sh` script, you must be in your `drawFAVA` directory. You
+should always synchronize your annotations using the `sync.sh` script before
+you update your repository because uncommitted changed can complicate an
+update. While you are in the `drawFAVA` directory, run the following command:
+
+```bash
+bash update.sh
+```
+
+This script can produce a fair amount of output, and that is normal as long as
+it doesn't end with an error message.
+
+:::{admonition} `update.sh`: File not found
+:class: warning
+If you get a `File not found` message when you run `bash update.sh`, this means
+you need to syncronize your repository manually. You can do this using the
+following commands, which must be run from in the `drawFAVA` directory. (You
+may want to copy-and-paste the first one).
+
+```bash
+curl https://raw.githubusercontent.com/nbenlab/drawFAVA/refs/heads/main/update.sh -o upd.sh
+bash upd.sh
+rm upd.sh
+```
+
+These commands (1) download the `update.sh` script manually but names it
+`upd.md` instead of `update.md`, (2) run the script, which updates your
+repository from the `nbenlab/drawFAVA` repository, then (3) remove the
+script. The script must be named something other than `update.sh` initially
+because the update itself will create the `update.sh` script, and if there
+already is such a script, it can cause problems. You can then remove the
+`upd.sh` script because it's no longer needed.
+:::
+
+You only need to run the `update.sh` script when you have reason to believe
+that there are updates waiting for you. However, there's no harm in running
+it when there aren't updates available.
